@@ -277,15 +277,15 @@ body{
   }
 
   tbody tr:nth-child(even) td.growth {
-    background-color: #FAFAF8; /* White */
-
-  }
-
-  tbody tr:nth-child(odd) td.growth {
     background-color: #EEEEE9; /* Light gray */
 
   }
 
+  tbody tr:nth-child(odd) td.growth {
+    background-color: #FAFAF8; /* White */
+/* Light gray */
+
+  }
   tbody tr:first-child td.growth {
     background-color: #FAFAF8; /* White for the first row */
   }
